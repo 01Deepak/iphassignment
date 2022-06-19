@@ -1,0 +1,51 @@
+
+
+.bgImage {
+    background-image: url('../Images/foodBackground.jpg');
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  /* padding: 0 60px; */
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: red;
+}
+
+.card{
+ border: none;
+}
+
+.roundAvtar img{
+  height: 4rem;
+  width: 4rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+.roundImage img{
+  height:120px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+.navbar{
+  padding: 0;
+}
+
+
+  @media screen and (max-width: 500px) {
+    .flexColumn {
+    flex-direction: column;
+  }
+}
+
+.minwidth{
+  min-width: 55px;
+}
