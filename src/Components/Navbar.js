@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
                     <ul className="navbar-nav me-2 mb-2 mb-lg-0 d-flex justify-content-end align-items-center w-100 ">
                         <li className="nav-item mx-3">
-                            <Link className="nav-link " aria-current="page" to="/home">Home</Link>
+                            <Link className="nav-link " aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item mx-3">
                             <Link className="nav-link " to="/aboutus">About us</Link>
